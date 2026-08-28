@@ -5,10 +5,10 @@ public class pat6{
             //spaces
             for(int col=1; col<=r-1; col++){
                 // for each row -> spaces (0->3)
-                System.out.print(" ");
+                System.out.print("  ");
             }
             //stars
-            for(int col=1; col<=2*n-1+(r-1); col++){
+            for(int col=1; col<=2*n-r-(r-1); col++){
                 // for each row -> stars (7->1) odd
                 System.out.print("* ");
             }

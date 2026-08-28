@@ -7,3 +7,4 @@ it's a foundational practice which helps to master loops, nested loops and algor
 | **Topic no.** | **Topic**                                  | Draw.link               |
 | ------------- | ------------------------------------------ | ----------------------- |
 | 1             | [solid Square](pattern.printing/pat1.java) | [tldr](tldr./pat1.tldr) |
+| 2             |                                            |                         |
