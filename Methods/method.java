@@ -1,9 +1,14 @@
 public class method{
-   public static void sum(int a ,int b){
-        System.out.println(a+b);
+void loop(int n){
+    for(int i=1; i<=n; i++){
+        System.out.print(" "+i);
+
     }
-    public static void main(String[] args){
-        System.out.print("HELlo ");
-        sum(3,9);
+    System.out.println();
+}
+
+    void main(String[] args){
+        System.out.println("Meow");
+        loop(10);
     }
 }
