@@ -6,6 +6,8 @@
 - [`This` reference variable](Observation.md#observation-4th)
 - [Naming convention](Observation.md#observatoin-5th)
 - [Encapsulation getter and setter rules](Observation.md#observation-6th)
+- [Inheritance super rules](Observation.md#observation-7th)
+- [polymorphism and Upcasting](Observation.md#observation-8th)
 -------------------------
 ## Observation 1st
 Java file mein sirf maximum ek hi **public class** hu sakti hain and wahi filename hoga 
@@ -72,3 +74,91 @@ tho humne `attributes` and `methods` ko private kar diya ab hum outside the clas
 > getter and setter humesa at most 1 attribute modify ya access karenge 
 >
 > getter humesa attribute return karega void use nhi karna method mein 
+
+## Observation 7th 
+`Inheritance` mein jab hum child class mein parents class ke constructor ko call karte hain. <br> **for example :** <br>
+
+
+```java
+
+
+class Human{  // parent class
+    String name;
+    int age;
+    
+    Human(String name, int age){ //constructor
+        this.name=name;
+        this.age=age;
+    }
+}
+class Student extends Human{
+    String course; // child's class attributes
+    
+    // constructor
+    Student(String name,int age,String course){
+        super(name,age);  // first use super to call parent constructor
+        this.course=course // this is right approach
+    }
+}
+
+```
+
+##### Wrong Approach
+```java
+// child ke constructor mein hume phele super se parent ke constructor ko call karna hota hain upar sahi kiya hain 
+// isme galat karenge 
+class Student extends Human(){
+    String course;
+    //constructor
+    Student(String name,int age, String course){
+        this.course=course;
+        super(name,age)     // ye tariqa galat hain isme phele nhi baad mein super parents constructor ko call kar rha hain
+    }
+}
+```
+
+> learn from this [click here ](https://gemini.google.com/app/f19e9739946c1d46#:~:text=Your%20code%20is%20almost,is%20the%20corrected%20solution%3A)
+
+
+## Observation 8th 
+`Polymorphism` has two types in **Java** and types ke name hain:
+<details open>
+<summary><b>Compile Time Polymorphism</b></summary>
+</br>
+<p> <b>Compile Time:</b> Isme same class ke andar <code> Multiple Methods hote hain</code>  Same name se bas parameter different hote hain. <br><a href="U5_Polymorphism/CompileTimePoly.java"> Code example </a>  </p>
+</details>
+
+<details open>
+<summary><b>Run Time Polymorphism</b></summary>
+<div>
+<p> <b> Run Time:</b> Polymorphism tab banta hain jab hum multiple class banate hain and usme access karte hain basically <code>Inheritance</code> ke waqt <b> Parents ke methods ko Modify karte hain access ke saath saath</b><br>
+<a href=U5_Polymorphism/RunTimemain.java> Code example</a>
+
+> **RUNTIME Polymorphsim** ko use karne ke liya `@override` use kare. method  ko override karne ke liye.
+
+**Syntax**
+```Java
+@override
+void display(){
+    // code here different than parent class 
+    // but method must be same as parent class's method
+    // parameter alag kar sakte hain datatype bhi change karu.
+}
+```
+> Object banate waqt. Object ko upcaste kare 
+
+**Syntax**
+```java
+// up casting
+parent_class obj_name=new child_class; 
+```
+
+</div>
+</details>
+
+#### Upcasting ka kiya use hain ?
+**Upcasting** ka use hum `parents class` ke `method/attributes` ko flexible tariqa se use karne ke liye karte hain 
+isse child apni khud ki special and uniquene method ya attributes access nhi kar sakta and sirf wahi access kar sakta hain jho parent ke method ko override kara hain wo and parent se `inherit` kare saare  attributes and method ko access kar sakta hain.
+
+
+
