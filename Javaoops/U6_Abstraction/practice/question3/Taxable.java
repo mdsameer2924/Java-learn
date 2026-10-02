@@ -18,11 +18,6 @@ In main, create a Manager, print their salary, and call payTax().
 
 package U6_Abstraction.practice.question3;
 
-public class Main {
-    public static void main(String[] args){
-        // code here
-        Manager e1=new Manager("Gandhi ji");
-        System.out.println("Salary: ₹"+e1.calculateSalary(100000));
-        e1.payTax();
-    }
+public interface Taxable{
+    void payTax();
 }
