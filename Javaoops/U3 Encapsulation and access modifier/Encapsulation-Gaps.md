@@ -186,7 +186,7 @@ Note the separation: the class only *holds* data and *enforces rules*; `main` do
 2. **Rewrite `practice/FirstQuestion.java`** using the reference in section 3, then **delete or rename `Fry.java`** so the same question doesn't exist twice with two different designs.
 3. **Rename `main.java`'s class/methods** in your head, then in the file: `BankAccount` → `Employee` (`name`, `empId`, `salary`), getters `getName()/getEmpId()/getSalary()`, and change `setAccount(double amount)` into `void setSalary(double salary)` + a separate `void deposit(double amount) { if (amount > 0) this.salary += amount; }`.
 4. Rebuild the **Movie** question once more from a blank file, without looking, following the section-3 shape. If you can do it without a template, the gap is closed.
-5. Add a 6th observation to `U1 .../Observation.md`: **"getter returns, setter takes, printer prints — teen alag kaam hain"**.
+5. Add a 6th observation to `U1 .../README.md`: **"getter returns, setter takes, printer prints — teen alag kaam hain"**.
 
 ## 6. FAQ — "So in encapsulation, one getter/setter means at most ONE attribute?"
 

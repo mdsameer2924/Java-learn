@@ -1,6 +1,6 @@
 # U3 — Encapsulation and Access Modifiers — Notes
 
-> **Source:** concept extracted from the master [`Observation.md`](../Observation.md). The original observation file is kept untouched — this is only the per-unit copy of the concept.
+> **Source:** concept extracted from the master [`README.md`](../README.md). The original observation file is kept untouched — this is only the per-unit copy of the concept.
 > **Unit per roadmap:** Unit 3: Encapsulation and Access Modifiers (Data Hiding & Security)
 > **See also (existing review notes in this folder):** [`Encapsulation-Gaps.md`](Encapsulation-Gaps.md) · code: [`main.java`](main.java), [`Second.java`](Second.java)
 
@@ -23,4 +23,4 @@ tho humne `attributes` and `methods` ko private kar diya ab hum outside the clas
 
 ---
 
-_Extracted only; the master [`Observation.md`](../Observation.md) remains the single source of truth._
+_Extracted only; the master [`README.md`](../README.md) remains the single source of truth._

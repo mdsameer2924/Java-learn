@@ -1,6 +1,6 @@
 # U5 — Polymorphism — Notes
 
-> **Source:** concept extracted from the master [`Observation.md`](../Observation.md). The original observation file is kept untouched — this is only the per-unit copy of the concept.
+> **Source:** concept extracted from the master [`README.md`](../README.md). The original observation file is kept untouched — this is only the per-unit copy of the concept.
 > **Unit per roadmap:** Unit 5: Polymorphism (Overloading & Overriding - One Name, Many Forms)
 
 ---
@@ -73,4 +73,4 @@ iska rule different hain isme hum `parameter` , `return type` kuch bhi change nh
 
 ---
 
-_Extracted only; the master [`Observation.md`](../Observation.md) remains the single source of truth._
+_Extracted only; the master [`README.md`](../README.md) remains the single source of truth._

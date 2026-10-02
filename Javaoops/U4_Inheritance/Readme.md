@@ -1,6 +1,6 @@
 # U4 — Inheritance — Notes
 
-> **Source:** concept extracted from the master [`Observation.md`](../Observation.md). The original observation file is kept untouched — this is only the per-unit copy of the concept.
+> **Source:** concept extracted from the master [`README.md`](../README.md). The original observation file is kept untouched — this is only the per-unit copy of the concept.
 > **Unit per roadmap:** Unit 4: Inheritance (Code Reusability & Relationships)
 
 ---
@@ -50,4 +50,4 @@ class Student extends Human(){
 
 ---
 
-_Extracted only; the master [`Observation.md`](../Observation.md) remains the single source of truth._
+_Extracted only; the master [`README.md`](../README.md) remains the single source of truth._
