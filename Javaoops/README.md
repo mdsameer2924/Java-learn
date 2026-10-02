@@ -1,25 +1,25 @@
 ### This file is created for hand on learning purpose while hand ons what i learn jot down here 
 # Table of Content
-- [Public class limit](Observation.md#observation-1st)
-- [Importance of public specifier](Observation.md#observation-2nd)
-- [Method return type rules](Observation.md#observation-3rd)
-- [`This` reference variable](Observation.md#observation-4th)
-- [Naming convention](Observation.md#observatoin-5th)
-- [Encapsulation getter and setter rules](Observation.md#observation-6th)
-- [Inheritance super rules](Observation.md#observation-7th)
-- [polymorphism and Upcasting](Observation.md#observation-8th)
-- [Method overriding and overloading rules](Observation.md#observation-9th)
-- [Advance oops](Observation.md)
+- [Public class limit](README.md#observation-1st)
+- [Importance of public specifier](README.md#observation-2nd)
+- [Method return type rules](README.md#observation-3rd)
+- [`This` reference variable](README.md#observation-4th)
+- [Naming convention](README.md#observatoin-5th)
+- [Encapsulation getter and setter rules](README.md#observation-6th)
+- [Inheritance super rules](README.md#observation-7th)
+- [polymorphism and Upcasting](README.md#observation-8th)
+- [Method overriding and overloading rules](README.md#observation-9th)
+- [Advance oops](README.md)
 -------------------------
 ## Observation 1st
 Java file mein sirf maximum ek hi **public class** hu sakti hain and wahi filename hoga 
 #### Conclusion: 
 ek file ke andar ek ki class banao industry standard hain.
-> learn from [reference](Q1.java)
+> learn from [reference](U1%20Classes%20and%20object/practice/Q1.java)
 
 ## Observation 2nd
  Java mein main function public keyword (access specifier) important hain warna `JVM` Usse call nhi kar sakta and agar different folder se access karna chahe tho possible nhi 
-> learn from [reference](Q2.java), [example](https://gemini.google.com/app/dd8f395339c2ef0e#:~:text=Gemini%20said-,To%20understand%20why,public,-.)
+> learn from [reference](U1%20Classes%20and%20object/practice/Q2.java), [example](https://gemini.google.com/app/dd8f395339c2ef0e#:~:text=Gemini%20said-,To%20understand%20why,public,-.)
 #### Conclusion
 <input type="checkbox">Practically try how not using public affect and restrict main method file within same package</input>
 
@@ -34,7 +34,7 @@ String areaOfRectange(int length, int breadth){
 ```
 
 ye wala work nhi karega because `returnType` different hain actual value jho return kar rha hain usse.<br>
-**[refernce](../../testSubject/methodReturnType.java#L3-5): of this above code block** 
+**[refernce](testSubject/methodReturnType.java#L3-5): of this above code block** 
 > - return type --> hain String
 > - but niche return -> `length * breadth` kar rha hain.
 >
@@ -48,7 +48,7 @@ ye wala work nhi karega because `returnType` different hain actual value jho ret
 ## Observation 4th
 **`this` reference variable** constructor ke parameter and class member ko connected karta hain ek tariqa se. iske bina kuch problem aati hain uska reference niche hain 
 
-**example taken**<br>[here](https://gemini.google.com/app/a9bf7eab1c97e62f#:~:text=The%20exact%20scenario,your%20program%20later.) | [source code example](../../testSubject/ThisImportance.java#L7-8)
+**example taken**<br>[here](https://gemini.google.com/app/a9bf7eab1c97e62f#:~:text=The%20exact%20scenario,your%20program%20later.) | [source code example](testSubject/ThisImportance.java#L7-8)
 
 
 ## Observatoin 5th 
