@@ -8,6 +8,8 @@
 - [Encapsulation getter and setter rules](Observation.md#observation-6th)
 - [Inheritance super rules](Observation.md#observation-7th)
 - [polymorphism and Upcasting](Observation.md#observation-8th)
+- [Method overriding and overloading rules](Observation.md#observation-9th)
+- [Advance oops](Observation.md)
 -------------------------
 ## Observation 1st
 Java file mein sirf maximum ek hi **public class** hu sakti hain and wahi filename hoga 
@@ -161,4 +163,23 @@ parent_class obj_name=new child_class;
 isse child apni khud ki special and uniquene method ya attributes access nhi kar sakta and sirf wahi access kar sakta hain jho parent ke method ko override kara hain wo and parent se `inherit` kare saare  attributes and method ko access kar sakta hain.
 
 
+## Observation 9th
+`method overriding` and `method overloading` yaha ek aisa concept hain begineer confuse hote hain. 
+**Method overloading** ka [example](U5_Polymorphism/CompileTimePoly.java). <br>
+yaha confusion ye hain `overloading` ke waqt hum method ko kiss hadd taq overload kar sakte hain kab nhi kar sakta basically rules 
 
+#### Rule of Method OverLoading
+To successfully overload a method, you must change at least one of the following in the parameter list:
+
+- The number of parameters (e.g., add(int a) vs add(int a, int b))
+
+- The data types of the parameters (e.g., add(int a) vs add(double a))
+
+- The sequence of the parameters (e.g., display(int a, String b) vs display(String b, int a))
+
+> **Note**: Sirf aap return type change nhi kar sakte. compiler error show karega because parameter same hain but return type different hain
+
+
+#### Rules of Method Overriding 
+iska rule different hain isme hum `parameter` , `return type` kuch bhi change nhi kar sakte sirf method ke behaviour ko change karte hain `@Override` keyword  use karke </br>
+[code example](testSubject/MethodOverride.java#L12-15)
