@@ -19,7 +19,7 @@ class Vehicle{
     }
 }
 
-public class first {
+public class Static {
     public static void main(String[] args){
         // code here
         Vehicle.totalCar=45;
